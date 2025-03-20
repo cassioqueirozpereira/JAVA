@@ -16,5 +16,8 @@ class Aluno2 {
     }
     public String recuperarNome () {
          return this.nome;
-    }     
+    }
+    public int recuperarIdade () {
+     return this.idade;
+    }
 }

@@ -23,7 +23,7 @@ public class Aluno {
     // Método toString()
     @Override
     public String toString() {
-        return "Aluno [nome=" + nome + "]";
+        return "Aluno [nome = " + nome + "]";
     }
 
     public static void main(String args[]) {
