@@ -1,4 +1,4 @@
-package meu_pacote;
+package JAVA;
 
 public class MinhaClasse {
     public static void main (String[] args) {

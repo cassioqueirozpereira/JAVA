@@ -1,7 +1,7 @@
-import meu_pacote.MinhaClasse;
+import JAVA.MinhaClasse;
 
 public class TestePacote {
-    public static void main (String[] args) {
-        meu_pacote;
+    public static void main(String[] args) {
+        MinhaClasse.main(args);
     }
 }
