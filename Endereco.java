@@ -1,28 +1,78 @@
 public class Endereco {
     // Atributos
-    private String nome_rua;
-    private int numero;
+    private String pais;
+    private String estado;
+    private String cidade;
+    private String rua;
+    private String numero;
+    private String CEP;
+    private String complemento;
 
     // Construtor
-    public Endereco(String nome_rua, int numero) {
-        this.nome_rua = nome_rua;
+    public Endereco(String pais, String estado, String cidade, String rua, String numero, String CEP, String complemento) {
+        this.pais = pais;
+        this.estado = estado;
+        this.cidade = cidade;
+        this.rua = rua;
+        this.numero = numero;
+        this.CEP = CEP;
+        this.complemento = complemento;
+    }
+
+    // Setters and Getters (Métodos)
+    public void setPais(String pais) {
+        this.pais = pais
+    }
+
+    public String getPais() {
+        return pais;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+    
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+
+    public String getCidade() {
+        return cidade;
+    }
+
+    public void setRua(String rua) {
+        this.rua = rua;
+    }
+
+    public String getRua() {
+        return rua;
+    }
+
+    public void setNumero(String numero) {
         this.numero = numero;
     }
 
-    // Getters e setters (Métodos)
-    public String getNomeRua() {
-        return nome_rua;
-    }
-
-    public void setNomeRua(String nome_rua) {
-        this.nome_rua = nome_rua;
-    }
-
-    public int getNumero() {
+    public String getNumero() {
         return numero;
     }
 
-    public void setNumero(int numero) {
-        this.numero = numero;
+    public void setCEP(String CEP) {
+        this.CEP = CEP;
+    }
+
+    public String getCEP() {
+        return CEP;
+    }
+
+    public void setComplemento(String complemento) {
+        this.complemento = complemento;
+    }
+
+    public String getComplemento() {
+        return complemento;
     }
 }
