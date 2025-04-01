@@ -1,5 +1,6 @@
-import java.time.Month;
-import java.time.Year;
+import static java.util.Calendar.YEAR;
+import static java.util.Calendar.MONTH;
+import static java.util.Calendar.DATE;
 import java.util.Calendar;
 
 public class Pessoa2 {

@@ -21,7 +21,7 @@ public class Endereco {
 
     // Setters and Getters (Métodos)
     public void setPais(String pais) {
-        this.pais = pais
+        this.pais = pais;
     }
 
     public String getPais() {

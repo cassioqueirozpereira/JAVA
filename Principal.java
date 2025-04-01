@@ -10,7 +10,7 @@ public class Principal {
         int idade;
         Calendar data = Calendar.getInstance();
         data.set(1980, 10, 23);
-        endereco = new Endereco();
+        endereco = new Endereco("t", "t", "t", "t", "t", "t", "t");
         endereco.setPais("Brasil");
         endereco.setEstado("RJ");
         endereco.setCidade("Rio de Janeiro");
