@@ -21,5 +21,7 @@ public class Principal {
         aluno = new Aluno3("Marco Antônio", data, 901564098, endereco);
         aluno.atualizarIdade();
         idade = aluno.recuperarIdade();
+        System.out.println(aluno);
+        System.out.println(endereco);
     }
 }

@@ -75,4 +75,17 @@ public class Endereco {
     public String getComplemento() {
         return complemento;
     }
+    
+    @Override
+    public String toString() {
+        return "Endereço{" +
+            "pais='" + pais + '\'' +
+            ", estado='" + estado + '\'' +
+            ", cidade='" + cidade + '\'' +
+            ", rua='" + rua + '\'' +
+            ", numero='" + numero + '\'' +
+            ", CEP='" + CEP + '\'' +
+            ", complemento='" + complemento + '\'' +
+            '}';
+    }
 }

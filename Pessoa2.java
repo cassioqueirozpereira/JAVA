@@ -56,4 +56,12 @@ public class Pessoa2 {
             lapso --;
         return lapso;
     }
+
+    public Calendar getDataNascimento() {
+        return data_nascimento;
+    }
+    
+    public Endereco getEndereco() {
+        return endereco;
+    }
 }
