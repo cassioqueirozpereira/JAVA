@@ -10,7 +10,7 @@ public class Principal {
 
     // Método main
     public static void main(String args[]) {
-        int idade;
+        // int idade;
         // Calendar data = Calendar.getInstance();
         // data.set(1980, 10, 23);
         // Calendar ndata = Calendar.getInstance();

@@ -1,0 +1,7 @@
+package classe_abstrata;
+
+public class Gato extends Animal {
+    public void emitirSom() {
+        System.out.println("Miar");
+    }
+}

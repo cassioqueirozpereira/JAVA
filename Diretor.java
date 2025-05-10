@@ -12,11 +12,13 @@ public class Diretor extends Empregado {
         return "E-" + UUID.randomUUID().toString();
     }
 
-    protected void alterarMatricula() {
-        gerarMatricula();
-    }
 
-    protected void alterarMatricula(String matricula) {
-        this.matricula = matricula;
-    }
+    // Esse métrodo é na própria classe
+//     protected void alterarMatricula() {
+//         gerarMatricula();
+//     }
+
+//     protected void alterarMatricula(String matricula) {
+//         this.matricula = matricula;
+//     }
 }
